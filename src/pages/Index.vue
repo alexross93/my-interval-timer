@@ -1,11 +1,16 @@
 <template>
   <q-page class="flex flex-center">
-    <img alt="Quasar logo" src="~assets/quasar-logo-full.svg">
+    <Timer/>
   </q-page>
 </template>
 
 <script>
+import Timer from 'components/Timer.vue'
+
 export default {
-  name: 'PageIndex'
+  name: 'PageIndex',
+  components: {
+    Timer
+  }
 }
 </script>
